@@ -28,7 +28,7 @@ struct ContentView: View {
                             
                             Spacer()
                             
-                            VStack(alignment: .leading) {
+                            VStack(alignment: .trailing) {
                                 Text(stock.price)
                                 Text("\(stock.change) (\(stock.changePercent))")
                                     .foregroundColor(stock.change.contains("-") ? .red : .green)
