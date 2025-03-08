@@ -71,6 +71,6 @@ struct ContentView: View {
         }
     }
 }
-#Preview {
-    ContentView(userName: "John Doe", balance: .constant(500000))
-}
+//#Preview {
+//    ContentView(userName: "John Doe", balance: .constant(500000))
+//}
